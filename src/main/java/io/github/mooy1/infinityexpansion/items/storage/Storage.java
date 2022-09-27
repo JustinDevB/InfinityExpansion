@@ -61,6 +61,7 @@ public final class Storage {
     );
 
     public static void setup(InfinityExpansion plugin) {
+        /*
         new StorageForge(Groups.STORAGE, STORAGE_FORGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 Materials.MAGSTEEL, new ItemStack(Material.ANVIL), Materials.MAGSTEEL,
                 Materials.MAGSTEEL, new ItemStack(Material.CRAFTING_TABLE), Materials.MAGSTEEL,
@@ -91,6 +92,8 @@ public final class Storage {
                 Materials.INFINITE_INGOT, VOID_STORAGE, Materials.INFINITE_INGOT,
                 Materials.INFINITE_INGOT, Materials.VOID_INGOT, Materials.INFINITE_INGOT
         }).register(plugin);
+        */
+
     }
 
 }
